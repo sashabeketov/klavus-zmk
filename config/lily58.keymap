@@ -55,11 +55,11 @@
             //                     |      |      |      |        |  |       |          |      |      |
 
             bindings = <
-&studio_unlock  &trans  &trans   &trans   &kp F14  &kp F15                                                    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4
-&trans          &trans  &kp F16  &kp F17  &kp F18  &kp F19                                                    &trans      &trans        &kp UP_ARROW  &trans           &kp K_COFFEE  &none
-&trans          &trans  &kp F20  &kp F21  &kp F22  &kp F23                                                    &trans      &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &trans        &trans
-&trans          &trans  &trans   &trans   &trans   &kp F24  &kp RG(RS(RC(NUMBER_4)))    &kp RG(RS(NUMBER_4))  &trans      &trans        &trans        &trans           &trans        &trans
-                                 &trans   &trans   &trans   &trans                      &trans                &trans      &trans        &trans
+&studio_unlock  &trans                 &trans                 &trans                 &kp F14                &kp F15                                                                  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4
+&trans          &kp RS(RA(RC(RG(Q))))  &kp RG(RA(RC(RS(W))))  &kp RG(RC(RA(RS(E))))  &kp RG(RA(RC(RS(R))))  &kp RS(RA(RC(RG(T))))                                                    &trans      &trans        &kp UP_ARROW  &trans           &kp K_COFFEE  &none
+&trans          &kp RS(RG(RA(RC(A))))  &kp RS(RA(RC(RG(S))))  &kp RS(RA(RC(RG(D))))  &kp RS(RA(RC(RG(F))))  &kp RS(RA(RC(RG(G))))                                                    &trans      &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &trans        &trans
+&trans          &kp RS(RA(RC(RG(Z))))  &kp RS(RA(RG(RC(X))))  &kp RS(RA(RC(RG(C))))  &kp RS(RG(RA(RC(V))))  &kp RC(RA(RS(RG(B))))  &kp RG(RS(RC(NUMBER_4)))    &kp RG(RS(NUMBER_4))  &trans      &trans        &trans        &trans           &trans        &trans
+                                                              &trans                 &trans                 &trans                 &trans                      &trans                &trans      &trans        &trans
             >;
         };
 
